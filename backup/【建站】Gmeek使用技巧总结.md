@@ -24,5 +24,7 @@
 > 对于极致的简洁和 GitHub 生态的深度集成，选择 GitHub Pages。对于更高的性能、更强大的自动化构建能力和边缘计算扩展性，选择 Cloudflare Pages。Cloudflare全球CDN，极致加速，性能更优。对于一个专业的静态站点项目，尤其是有一定用户访问量和扩展需求时，Cloudflare Pages 通常是更现代和强大的选择。对于一个随性的个人博客或开源项目文档，GitHub Pages 的简单性则无可匹敌。
 - 登录[Cloudflare](https://dash.cloudflare.com/)
 - 点击“计算(Workers)-Workers和Pages”，创建Pages，选择导入github里面创建的blog
-- 点击部署，部署后设置自定义域名
-- Cloudflare会自动给域名添加SSL证书
+- 因为项目已经使用Github Action自动构建好了，Cloudflare Pages无需构建命令，因此这里构建配置需要注意：构建命令为空；构建输出填写“docs”,对应仓库中docs文件夹。（这里我没有配置正确，导致Cloudflare Pages部署后的域名无法访问）
+<img width="913" height="300" alt="Image" src="https://github.com/user-attachments/assets/14dab828-5bf7-4865-9c32-ce0eedfb53b3" />
+- 点击部署，部署后设置自定义域名，注意需要在自己的域名解析中，记录类型选择CNAME，主机记录填写“blog”等自己想要的二级域名。
+- Cloudflare会自动给域名添加SSL证书，形成很强的防护。

@@ -111,9 +111,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <ul>
 <li>登录<a href="https://dash.cloudflare.com/" rel="nofollow">Cloudflare</a></li>
 <li>点击“计算(Workers)-Workers和Pages”，创建Pages，选择导入github里面创建的blog</li>
-<li>点击部署，部署后设置自定义域名</li>
-<li>Cloudflare会自动给域名添加SSL证书</li>
-</ul></div>
+<li>因为项目已经使用Github Action自动构建好了，Cloudflare Pages无需构建命令，因此这里构建配置需要注意：构建命令为空；构建输出填写“docs”,对应仓库中docs文件夹。（这里我没有配置正确，导致Cloudflare Pages部署后的域名无法访问）</li>
+</ul>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/14dab828-5bf7-4865-9c32-ce0eedfb53b3"><img width="913" height="300" alt="Image" src="https://github.com/user-attachments/assets/14dab828-5bf7-4865-9c32-ce0eedfb53b3" style="max-width: 100%; height: auto; max-height: 300px;"></a></p>
+- 点击部署，部署后设置自定义域名，注意需要在自己的域名解析中，记录类型选择CNAME，主机记录填写“blog”等自己想要的二级域名。
+- Cloudflare会自动给域名添加SSL证书，形成很强的防护。</div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
