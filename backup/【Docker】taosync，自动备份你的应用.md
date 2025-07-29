@@ -1,5 +1,5 @@
 ## 简介
-TaoSync是一个适用于OpenList v3+的自动化同步工具/Sync for OpenList/AList。同步速度还是很不错的。
+[TaoSync](https://github.com/dr34m-cn/taosync)是一个适用于OpenList v3+的自动化同步工具/Sync for OpenList/AList。同步速度还是很不错的。详细教程可查看TaoSync作者文字 [如何在绿联NAS中使用TaoSync同步我的文件到各个网盘](https://dr34m.cn/2024/07/newpost-57/)
 
 <img width="1891" height="657" alt="Image" src="https://github.com/user-attachments/assets/88d14548-a3c2-4e1f-81ce-6cdcdb2a3480" />
 
@@ -57,3 +57,4 @@ fd1/*           表示忽略/fd1/，/fd0/df1/等下所有文件
 - [Github TaoSync]https://github.com/dr34m-cn/taosync
 - [taoSync排除项简易教程](https://dr34m.cn/2024/09/newpost-60/)
 - [cron配置简介](https://dr34m.cn/2024/08/newpost-58/)
+- [如何在绿联NAS中使用TaoSync同步我的文件到各个网盘](https://dr34m.cn/2024/07/newpost-57/)
