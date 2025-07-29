@@ -1,4 +1,3 @@
-# 【Docker】OpenList添加存储
 ## 百度存储
 - 点击获取[个人令牌](https://api.oplist.org/)，选择**百度网盘 验证登录**。
 - 勾选“使用OpenList提供的参数”
