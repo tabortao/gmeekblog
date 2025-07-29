@@ -47,7 +47,13 @@ fd1/*           表示忽略/fd1/，/fd0/df1/等下所有文件
 
 ![Image](https://github.com/user-attachments/assets/35ce8087-8888-4fc3-8231-c0a09896fa78)
 
+## 定时运行设置
+每周一早上7点运行
+- day_of_week: 1
+- hour: 7
+![Image](https://github.com/user-attachments/assets/18f4776c-cc1c-4478-891b-e20fab1f7180)
 
 ## 参考文章
 - [Github TaoSync]https://github.com/dr34m-cn/taosync
 - [taoSync排除项简易教程](https://dr34m.cn/2024/09/newpost-60/)
+- [cron配置简介](https://dr34m.cn/2024/08/newpost-58/)
