@@ -28,6 +28,12 @@ docker-compose up-d
 - Docker登录后台,查看初始密码
 - 登录后可以设置把本地文件备份到网盘
 
+## 自己备份内容
+- 相册：Photos
+- 电子书：Mybook
+- 服务应用：Docker
+![Image](https://github.com/user-attachments/assets/c8273d10-958e-45da-a40b-5e77b79b5456)
+
 ## 排除项规则
 taoSync规定的排除项根目录为同步来源或目标目录，例如你的来源目录为/baidu/pan/，使用规则/123321/*将忽略目录/baidu/pan/123321/下的文件；使用/baidu/*不会有效果。
 
