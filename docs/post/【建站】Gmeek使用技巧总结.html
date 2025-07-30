@@ -10,15 +10,17 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="## 简介
-[TaoSync](https://github.com/dr34m-cn/taosync)是一个适用于OpenList v3+的自动化同步工具/Sync for OpenList/AList。">
-<meta property="og:title" content="【Docker】taosync，自动备份你的应用">
-<meta property="og:description" content="## 简介
-[TaoSync](https://github.com/dr34m-cn/taosync)是一个适用于OpenList v3+的自动化同步工具/Sync for OpenList/AList。">
+<meta name="description" content="## 快速搭建
+
+根据[Gmeek快速上手](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html)，可以快速完成自己Blog的搭建。">
+<meta property="og:title" content="【建站】Gmeek使用技巧总结">
+<meta property="og:description" content="## 快速搭建
+
+根据[Gmeek快速上手](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html)，可以快速完成自己Blog的搭建。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://tabortao.github.io/post/%E3%80%90Docker%E3%80%91taosync%EF%BC%8C-zi-dong-bei-fen-ni-de-ying-yong.html">
+<meta property="og:url" content="http://blog.sdgarden.top/post/%E3%80%90%E5%BB%BA%E7%AB%99%E3%80%91Gmeek%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7%E6%80%BB%E7%BB%93.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
-<title>【Docker】taosync，自动备份你的应用</title>
+<title>【建站】Gmeek使用技巧总结</title>
 <link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 
@@ -61,15 +63,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">【Docker】taosync，自动备份你的应用</h1>
+<h1 class="postTitle">【建站】Gmeek使用技巧总结</h1>
 <div class="title-right">
-    <a href="https://tabortao.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="http://blog.sdgarden.top" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
     </a>
     
-    <a href="https://github.com/tabortao/tabortao.github.io/issues/5" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/tabortao/tabortao.github.io/issues/7" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -85,65 +87,44 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><h2>简介</h2>
-<p><a href="https://github.com/dr34m-cn/taosync">TaoSync</a>是一个适用于OpenList v3+的自动化同步工具/Sync for OpenList/AList。同步速度还是很不错的。详细教程可查看TaoSync作者文字 <a href="https://dr34m.cn/2024/07/newpost-57/" rel="nofollow">如何在绿联NAS中使用TaoSync同步我的文件到各个网盘</a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/88d14548-a3c2-4e1f-81ce-6cdcdb2a3480"><img width="1891" height="657" alt="Image" src="https://github.com/user-attachments/assets/88d14548-a3c2-4e1f-81ce-6cdcdb2a3480" style="max-width: 100%; height: auto; max-height: 657px;"></a></p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/dfe6abef-2f92-4eed-8828-ad37333ab59b"><img src="https://github.com/user-attachments/assets/dfe6abef-2f92-4eed-8828-ad37333ab59b" alt="Image" style="max-width: 100%;"></a></p>
-<h2>部署</h2>
-<p>docker-compose如下：</p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">services:
-  taoSync:
-    image: dr34m/tao-sync:latest
-    container_name: taoSync
-    restart: always
-    ports:
-      - <span class="pl-s"><span class="pl-pds">"</span>8023:8023<span class="pl-pds">"</span></span>
-    volumes:
-      - ./data:/app/data</pre></div>
-<p>启动项目</p>
-<div class="highlight highlight-source-shell"><pre class="notranslate">docker-compose up-d </pre></div>
-<h2>使用技巧</h2>
+<div class="markdown-body" id="postBody"><h2>快速搭建</h2>
+<p>根据<a href="https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html" rel="nofollow">Gmeek快速上手</a>，可以快速完成自己Blog的搭建。</p>
+<h2>插件使用</h2>
+<p>参考<a href="https://blog.meekdai.com/post/%E3%80%90Gmeek-jin-jie-%E3%80%91-cha-jian-gong-neng-de-shi-yong.html#vercount" rel="nofollow">【Gmeek进阶】插件功能的使用<br>
+</a>，对Blog添加一些插件。</p>
 <ul>
-<li>OpenList中存储中添加本地文件</li>
-<li>OpenList中存储添加网盘</li>
-<li>Docker登录后台,查看初始密码</li>
-<li>登录后可以设置把本地文件备份到网盘</li>
+<li>增加灯箱插件、TOC目录插件、Vercount统计插件；</li>
+<li>config.json最后不能有标点符号，如何“,”。</li>
 </ul>
-<h2>排除项规则</h2>
-<p>taoSync规定的排除项根目录为同步来源或目标目录，例如你的来源目录为/baidu/pan/，使用规则/123321/*将忽略目录/baidu/pan/123321/下的文件；使用/baidu/*不会有效果。</p>
-<div class="highlight highlight-source-gitignore"><pre class="notranslate"><span class="pl-e">.</span><span class="pl-k">*</span>              <span class="pl-e">表示忽略所有</span> <span class="pl-e">.</span> <span class="pl-e">开头的文件和目录</span>
-<span class="pl-k">*</span><span class="pl-e">.a</span>             <span class="pl-e">表示忽略所有</span> <span class="pl-e">.a</span> <span class="pl-e">结尾的文件</span>
-/<span class="pl-e">a.jpg</span>          <span class="pl-e">表示仅仅忽略项目根目录下的</span> <span class="pl-e">a.jpg</span> <span class="pl-e">文件，不包括</span> /<span class="pl-e">abc</span>/<span class="pl-e">a.jpg</span>
-<span class="pl-e">data</span>/<span class="pl-e">:</span>          <span class="pl-e">表示忽略data目录下的所有内容，不忽略</span> <span class="pl-e">data</span> <span class="pl-e">文件</span>
-/<span class="pl-e">data:</span>          <span class="pl-e">表示忽略根目录下的data文件</span>
-/<span class="pl-k">*</span><span class="pl-e">.pdf:</span>         <span class="pl-e">表示忽略</span>/<span class="pl-e">a.pdf，不忽略</span> /<span class="pl-e">doc</span>/<span class="pl-e">a.pdf</span>
-<span class="pl-k">**</span>/<span class="pl-e">a.txt:</span>       <span class="pl-e">表示忽略</span>/<span class="pl-e">a.txt,a</span>/<span class="pl-e">a.txt,a</span>/<span class="pl-e">b</span>/<span class="pl-e">a.txt等</span>
-<span class="pl-e">a</span>/<span class="pl-k">**</span>/<span class="pl-e">b.txt:</span>     <span class="pl-e">表示忽略a</span>/<span class="pl-e">b.txt,</span> <span class="pl-e">a</span>/<span class="pl-e">x</span>/<span class="pl-e">b.txt,a</span>/<span class="pl-e">x</span>/<span class="pl-e">y</span>/<span class="pl-e">b.txt等</span>
-/<span class="pl-e">mtk</span>/<span class="pl-e">do.doc</span>     <span class="pl-e">表示过滤某个具体文件</span>
-<span class="pl-e">fd1</span>/<span class="pl-k">*</span>           <span class="pl-e">表示忽略</span>/<span class="pl-e">fd1</span>/<span class="pl-e">，</span>/<span class="pl-e">fd0</span>/<span class="pl-e">df1</span>/<span class="pl-e">等下所有文件</span>
-/<span class="pl-e">fd1</span>/<span class="pl-k">*</span>          <span class="pl-e">表示忽略</span>/<span class="pl-e">fd1</span>/<span class="pl-e">下所有文件，不包括</span>/<span class="pl-e">fd0</span>/<span class="pl-e">fd1</span>/<span class="pl-e">,</span>/<span class="pl-e">fd2</span>/<span class="pl-e">fd1</span>/<span class="pl-e">等</span></pre></div>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/35ce8087-8888-4fc3-8231-c0a09896fa78"><img src="https://github.com/user-attachments/assets/35ce8087-8888-4fc3-8231-c0a09896fa78" alt="Image" style="max-width: 100%;"></a></p>
-<h2>定时运行设置</h2>
-<p>每周一早上7点运行</p>
+<div class="highlight highlight-source-json"><pre class="notranslate">{
+    <span class="pl-ent">"title"</span>:<span class="pl-s"><span class="pl-pds">"</span>可持续学园<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"subTitle"</span>:<span class="pl-s"><span class="pl-pds">"</span>热爱生活、喜欢分享。<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"avatarUrl"</span>:<span class="pl-s"><span class="pl-pds">"</span>https://github.githubassets.com/favicons/favicon.svg<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"GMEEK_VERSION"</span>:<span class="pl-s"><span class="pl-pds">"</span>last<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"script"</span>:<span class="pl-s"><span class="pl-pds">"</span>&lt;script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'&gt;&lt;/script&gt;&lt;script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'&gt;&lt;/script&gt;<span class="pl-pds">"</span></span>,
+    <span class="pl-ent">"allHead"</span>:<span class="pl-s"><span class="pl-pds">"</span>&lt;script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'&gt;&lt;/script&gt;<span class="pl-pds">"</span></span>
+}</pre></div>
+<h2>部署到Cloudflare</h2>
+<blockquote>
+<p>对于极致的简洁和 GitHub 生态的深度集成，选择 GitHub Pages。对于更高的性能、更强大的自动化构建能力和边缘计算扩展性，选择 Cloudflare Pages。Cloudflare全球CDN，极致加速，性能更优。对于一个专业的静态站点项目，尤其是有一定用户访问量和扩展需求时，Cloudflare Pages 通常是更现代和强大的选择。对于一个随性的个人博客或开源项目文档，GitHub Pages 的简单性则无可匹敌。</p>
+</blockquote>
 <ul>
-<li>day_of_week: 1</li>
-<li>hour: 7<br>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/18f4776c-cc1c-4478-891b-e20fab1f7180"><img src="https://github.com/user-attachments/assets/18f4776c-cc1c-4478-891b-e20fab1f7180" alt="Image" style="max-width: 100%;"></a></li>
+<li>登录<a href="https://dash.cloudflare.com/" rel="nofollow">Cloudflare</a></li>
+<li>点击“计算(Workers)-Workers和Pages”，创建Pages，选择导入github里面创建的blog</li>
+<li>因为项目已经使用Github Action自动构建好了，Cloudflare Pages无需构建命令，因此这里构建配置需要注意：构建命令为空；构建输出填写“docs”,对应仓库中docs文件夹。（这里我没有配置正确，导致Cloudflare Pages部署后的域名无法访问）</li>
 </ul>
-<h2>参考文章</h2>
-<ul>
-<li>[Github TaoSync]<a href="https://github.com/dr34m-cn/taosync">https://github.com/dr34m-cn/taosync</a></li>
-<li><a href="https://dr34m.cn/2024/09/newpost-60/" rel="nofollow">taoSync排除项简易教程</a></li>
-<li><a href="https://dr34m.cn/2024/08/newpost-58/" rel="nofollow">cron配置简介</a></li>
-<li><a href="https://dr34m.cn/2024/07/newpost-57/" rel="nofollow">如何在绿联NAS中使用TaoSync同步我的文件到各个网盘</a></li>
-</ul></div>
-<div style="font-size:small;margin-top:8px;float:right;"></div>
+<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/14dab828-5bf7-4865-9c32-ce0eedfb53b3"><img width="913" height="300" alt="Image" src="https://github.com/user-attachments/assets/14dab828-5bf7-4865-9c32-ce0eedfb53b3" style="max-width: 100%; height: auto; max-height: 300px;"></a></p>
+- 点击部署，部署后设置自定义域名，注意需要在自己的域名解析中，记录类型选择CNAME，主机记录填写“blog”等自己想要的二级域名。
+- Cloudflare会自动给域名添加SSL证书，形成很强的防护。
+<h2>高级使用方法</h2>
+<p>详见作者官网<a href="https://blog.meekdai.com/tag.html#Gmeek" rel="nofollow">Gmeek合集</a></p></div>
+<div style="font-size:small;margin-top:8px;float:right;">❤️转载请注明出处，谢谢❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://tabortao.github.io">可持续学园</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="http://blog.sdgarden.top">Peach</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -152,8 +133,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if(""!=""){
-    var startSite=new Date("");
+if("1/1/2025"!=""){
+    var startSite=new Date("1/1/2025");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
@@ -195,7 +176,11 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-
+cmButton=document.getElementById("cmButton");
+    span=document.createElement("span");
+    span.setAttribute("class","Counter");
+    span.innerHTML="1";
+    cmButton.appendChild(span);
 
 
 function openComments(){

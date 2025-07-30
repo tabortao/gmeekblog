@@ -10,13 +10,15 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="今天看到有个文章说到，“**GitHub Issues 是最好的博客**”，想想确实很有道理，稳定运行这么多年，还一直免费。">
-<meta property="og:title" content="GitHub Issues 是最好的博客">
-<meta property="og:description" content="今天看到有个文章说到，“**GitHub Issues 是最好的博客**”，想想确实很有道理，稳定运行这么多年，还一直免费。">
+<meta name="description" content="## Hugo
+Hugo 是由 Go 语言实现的静态网站生成器。">
+<meta property="og:title" content="【建站】静态博客怎么选？">
+<meta property="og:description" content="## Hugo
+Hugo 是由 Go 语言实现的静态网站生成器。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://tabortao.github.io/post/GitHub%20Issues%20-shi-zui-hao-de-bo-ke.html">
+<meta property="og:url" content="http://blog.sdgarden.top/post/%E3%80%90%E5%BB%BA%E7%AB%99%E3%80%91%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%80%8E%E4%B9%88%E9%80%89%EF%BC%9F.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
-<title>GitHub Issues 是最好的博客</title>
+<title>【建站】静态博客怎么选？</title>
 
 
 
@@ -49,15 +51,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">GitHub Issues 是最好的博客</h1>
+<h1 class="postTitle">【建站】静态博客怎么选？</h1>
 <div class="title-right">
-    <a href="https://tabortao.github.io" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="http://blog.sdgarden.top" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
     </a>
     
-    <a href="https://github.com/tabortao/tabortao.github.io/issues/1" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/tabortao/tabortao.github.io/issues/6" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -73,29 +75,53 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>今天看到有个文章说到，“<strong>GitHub Issues 是最好的博客</strong>”，想想确实很有道理，稳定运行这么多年，还一直免费。以后不妨在这里记录自己一些想对外分享的一些琐碎问题和答案，“<strong>People Die, but Long Live GitHub</strong>”，很喜欢这句话。</p>
-<blockquote>
-<p>百年之后，假设我的博客还在，未来的人读到上边的文字，是否会想到，写下这些文字的人，已经死了。</p>
-</blockquote>
-<h2>优点</h2>
-<ul>
-<li>完全免费，不需要租用域名和服务器</li>
-<li>不需要过多折腾，对不懂技术的人来说非常友好</li>
-<li>Issues 自带评论功能，不需要后期为博客安装评论插件</li>
-<li>GitHub 有网页版和手机 App，只要有网，我们可以随时随地发布博客，而不仅仅局限于电脑</li>
-<li>发布到 GitHub 的内容，在 Google 的搜索结果中有非常高的权重，如果你写的内容比较优质，或者是许多人都会有的需求，也能有非常不错的曝光</li>
-</ul>
-<h2>参考文章</h2>
-<ul>
-<li><a href="https://github.com/yihong0618/gitblog">https://github.com/yihong0618/gitblog</a></li>
-</ul></div>
-<div style="font-size:small;margin-top:8px;float:right;"></div>
+<div class="markdown-body" id="postBody"><h2>Hugo</h2>
+<p>Hugo 是由 Go 语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。<br>
+Hugo 以速度快著称，号称是世界上最快的网站生成框架。<br>
+官网地址：<a href="https://gohugo.io" rel="nofollow">https://gohugo.io</a><br>
+Github 地址：<a href="https://github.com/gohugoio/hugo">https://github.com/gohugoio/hugo</a></p>
+<h3>优点</h3>
+<ol>
+<li>使用 Go 语言开发，相对与 Hexo 更简洁、灵活、高效，几百篇 Markdown 的文章渲染，可以在几秒内完成。</li>
+<li>同 Hexo 一样静态网站可以部署在 GitHub 上，有静态网站轻量快速的优点。</li>
+<li>性能及安全有保障，目前有很多知名网站都在使用 Hugo：Netlify、Let’s Encrypt、IPFS、Cloudflare Developers、DigitalOcean Docs、1Password 等等。</li>
+</ol>
+<h3>缺点</h3>
+<ol>
+<li>在国内 Hugo 的使用没有 Hexo 多，主题相对 Hexo 要少很多，教程也少很多，遇到问题需要自己花时间解决。</li>
+<li>同 Hexo 一样需要折腾，依赖本地部署环境。</li>
+</ol>
+<h2>Hexo</h2>
+<p>Hexo 是一个快速、简洁且高效的静态博客框架，它基于 Node.js 运行，可以将我们撰写的 Markdown 文档解析渲染成静态的 HTML 网页。<br>
+官网地址：<a href="https://hexo.io/zh-cn/index.html" rel="nofollow">https://hexo.io/zh-cn/index.html</a><br>
+Github 地址：<a href="https://github.com/hexojs/hexo">https://github.com/hexojs/hexo</a></p>
+<h3>优点</h3>
+<ol>
+<li>
+<p>可以直接部署在 github 上，不用自己搭建服务器。在本地撰写 Markdown 格式文章后，通过 Hexo 解析文档，渲染生成具有主题样式的 HTML 静态网页，推送到 GitHub 上完成博文的发布。</p>
+</li>
+<li>
+<p>静态站点轻量快速，可以 CDN 内容分发。</p>
+</li>
+</ol>
+<h3>缺点</h3>
+<ol>
+<li>依赖本地环境，只能在部署 Node.js、Git 和安装 VSCode 软件的电脑环境写文章，真的需要折腾。</li>
+<li>没有浏览数统计、没有评论功能。要实现需要外接别的平台可能会有安全问题，需要折腾。</li>
+</ol>
+<h2>Jekyll</h2>
+<p>Jekyll无疑是最受欢迎的静态站点生成器。因为它是 GitHub Pages 的基础，并且是由 GitHub 联合创始人 Tom Preston-Werner 创建的。<br>
+Jekyll官网: <a href="https://jekyllrb.com/" rel="nofollow">https://jekyllrb.com/</a><br>
+编程语言: Ruby</p>
+<h2>Gmeek</h2>
+<p><a href="https://github.com/Meekdai/Gmeek">Gmeek</a> 一个博客框架，超轻量级个人博客模板，完全基于Github Pages 、 Github Issues 和 Github Actions，可以称作All in Github。不需要本地部署，从搭建到写作，只需要18秒，2步搭建好博客，第3步就是写作。<a href="https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html" rel="nofollow">Gmeek快速上手</a></p></div>
+<div style="font-size:small;margin-top:8px;float:right;">❤️转载请注明出处，谢谢❤️</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://tabortao.github.io">可持续学园</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="http://blog.sdgarden.top">Peach</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -104,8 +130,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if(""!=""){
-    var startSite=new Date("");
+if("1/1/2025"!=""){
+    var startSite=new Date("1/1/2025");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
@@ -147,11 +173,7 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-cmButton=document.getElementById("cmButton");
-    span=document.createElement("span");
-    span.setAttribute("class","Counter");
-    span.innerHTML="2";
-    cmButton.appendChild(span);
+
 
 
 function openComments(){
