@@ -28,3 +28,6 @@
 <img width="913" height="300" alt="Image" src="https://github.com/user-attachments/assets/14dab828-5bf7-4865-9c32-ce0eedfb53b3" />
 - 点击部署，部署后设置自定义域名，注意需要在自己的域名解析中，记录类型选择CNAME，主机记录填写“blog”等自己想要的二级域名。
 - Cloudflare会自动给域名添加SSL证书，形成很强的防护。
+
+## 高级使用方法
+详见作者官网[Gmeek合集](https://blog.meekdai.com/tag.html#Gmeek)
