@@ -64,7 +64,15 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    
+    <a href="https://blog.sdgarden.top/link.html" class="btn btn-invisible circle" title="友情链接">
+        <svg class="octicon" width="16" height="16" >
+            <path id="友情链接" fill-rule="evenodd"></path>
+        </svg>
+    </a><a href="https://blog.sdgarden.top/about.html" class="btn btn-invisible circle" title="关于">
+        <svg class="octicon" width="16" height="16" >
+            <path id="关于" fill-rule="evenodd"></path>
+        </svg>
+    </a>
     <a href="https://blog.sdgarden.top/rss.xml" target="_blank" id="buttonRSS" class="btn btn-invisible circle" title="RSS">
         <svg class="octicon" width="16" height="16" >
             <path id="pathRSS" fill-rule="evenodd"></path>
@@ -80,33 +88,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="content">
 <div style="margin-bottom: 16px;">分享技术，记录生活</div>
 <nav class="SideNav border">
-<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/guan-yu.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop1" d=""></path>
-        </svg>
-        <span class="listTitle">关于</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#27237e"><object><a style="color:#fff" href="tag.html#建站">建站</a></object></span>
-        <span class="Label LabelTime" style="background-color:#0969da">2025-07-31</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/teng-xun-yun-dui-xiang-cun-chu-tu-pian-pi-liang-ya-suo-fang-fa.html">
+<a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/teng-xun-yun-dui-xiang-cun-chu-tu-pian-pi-liang-ya-suo-fang-fa.html">
     <div class="d-flex flex-items-center">
         <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
         </svg>
         <span class="listTitle">腾讯云对象存储图片批量压缩方法</span>
-    </div>
-    <div class="listLabels">
-        
-        <span class="Label LabelName" style="background-color:#27237e"><object><a style="color:#fff" href="tag.html#建站">建站</a></object></span>
-        <span class="Label LabelTime" style="background-color:#0969da">2025-07-31</span>
-    </div>
-</a><a class="SideNav-item d-flex flex-items-center flex-justify-between" href="post/you-qing-lian-jie.html">
-    <div class="d-flex flex-items-center">
-        <svg class="SideNav-icon octicon" style="witdh:16px;height:16px"><path class="svgTop0" d=""></path>
-        </svg>
-        <span class="listTitle">友情链接</span>
     </div>
     <div class="listLabels">
         
@@ -290,7 +276,7 @@ for(var i=0;i<iconPost.length;i++){
 
 
 
-
+document.getElementById("友情链接").setAttribute("d",value=IconList["link"]);document.getElementById("关于").setAttribute("d",value=IconList["about"]);
 </script>
 
 
