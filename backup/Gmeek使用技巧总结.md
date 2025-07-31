@@ -30,4 +30,6 @@
 - Cloudflare会自动给域名添加SSL证书，形成很强的防护。
 
 ## 高级使用方法
-详见作者官网[Gmeek合集](https://blog.meekdai.com/tag.html#Gmeek)
+关于、友链需要给对应文章设置独一无二的标签，比如新建一个“关于”页面，标签设置为“about”，并且在config.json中设置“ "singlePage":["about"],,”，这样才会生效。详见[【Gmeek进阶】右上角圆按钮配置](https://blog.meekdai.com/post/%E3%80%90Gmeek-jin-jie-%E3%80%91-you-shang-jiao-yuan-an-niu-pei-zhi.HTML)
+
+更多设置技巧详见作者官网[Gmeek合集](https://blog.meekdai.com/tag.html#Gmeek)
