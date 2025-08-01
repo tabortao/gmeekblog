@@ -64,3 +64,10 @@ fd1/*           表示忽略/fd1/，/fd0/df1/等下所有文件
 - [taoSync排除项简易教程](https://dr34m.cn/2024/09/newpost-60/)
 - [cron配置简介](https://dr34m.cn/2024/08/newpost-58/)
 - [如何在绿联NAS中使用TaoSync同步我的文件到各个网盘](https://dr34m.cn/2024/07/newpost-57/)
+
+> [!IMPORTANT]
+> 欢迎关注微信公众号“**可持续学园**”，免费获取更多新鲜技能。
+
+<p align="center">
+  <img src="https://lei-1258171996.cos.ap-guangzhou.myqcloud.com/imgs/2025/20250801104612387.webp" width="300px" />
+</p>
