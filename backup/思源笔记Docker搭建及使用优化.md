@@ -38,4 +38,4 @@ services:
 > [!IMPORTANT]
 > 欢迎关注微信公众号“**可持续学园**”，免费获取更多新鲜技能。
 
-![公众号](https://blog.sdgarden.top/公众号.jpg)
+![公众号](https://lei-1258171996.cos.ap-guangzhou.myqcloud.com/imgs/2025/20250801104612387.webp)
