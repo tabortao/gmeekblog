@@ -28,7 +28,14 @@ services:
 - 浏览器访问http:127.0.0.1:6806
 - Lucky反向代理设置，配合EasyTier内网穿透
 - Tuboshu添加网址或者PakePlus打包网页为客户端
-- 设置S3对象存储同步，定时手动进行同步（更节省流量）。
+- 设置S3对象存储同步，定时手动进行同步（更节省流量）
+- 配合[TaoSync对数据自动备份](https://github.com/tabortao/tabortao.github.io/issues/5)
+- 使用发布插件，把写好的文章同步发送到多个平台
 
 ## 参考文章
 1. [思源笔记docker搭建及后续使用优化](https://zhuanlan.zhihu.com/p/427328444)
+
+> [!IMPORTANT]
+> 欢迎关注微信公众号“**可持续学园**”，免费获取更多新鲜技能。
+
+![公众号](https://blog.sdgarden.top/公众号.jpg)
