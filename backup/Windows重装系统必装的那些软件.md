@@ -33,3 +33,10 @@
 16. **OfficeAssistant**：一个基于 Avalonia UI 开发的免费开源跨平台办公助手工具，实现PDF批量合并、PDF批量拆分、PDF批量压缩、PDF批量插入、PDF批量替换、PDF转图片、图片批量转PDF等功能。
 
 > 持续更新中…
+
+> [!IMPORTANT]
+> 欢迎关注微信公众号“**可持续学园**”，免费获取更多新鲜技能。
+
+<p align="center">
+  <img src="https://lei-1258171996.cos.ap-guangzhou.myqcloud.com/imgs/2025/20250801104612387.webp" width="300px" />
+</p>
