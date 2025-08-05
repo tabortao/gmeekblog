@@ -32,6 +32,8 @@
 
 16. **OfficeAssistant**：一个基于 Avalonia UI 开发的免费开源跨平台办公助手工具，实现PDF批量合并、PDF批量拆分、PDF批量压缩、PDF批量插入、PDF批量替换、PDF转图片、图片批量转PDF等功能。
 
+17. **Zotero**：是一个免费开源的参考文献管理工具，支持文献收集、整理、引用及协同共享，我主要用他来管理标准规范，同步起来很方便，手机都可以正常访问，推荐[下载绿色版](https://www.zotero.org/download/)。
+
 > 持续更新中…
 
 > [!IMPORTANT]
