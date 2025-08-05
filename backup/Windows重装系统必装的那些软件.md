@@ -4,7 +4,7 @@
 
 2. **Pixpin**：截图软件，可贴图、带OCR识别，替代了之前用的Snipaste。
 
-3. **任务栏美化助手**：美化任务栏，透明、居中。
+3. **任务栏美化**：[TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)-美化任务栏，透明；[TaskbarX](https://github.com/ChrisAnd1998/TaskbarX)-任务栏居中。
 
 4. **Clibor**：剪切板工具，双击Ctrl，快速呼出，简单快捷。
 
